@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="CodeHim" />
+  <link rel="icon" type="image/png" href="./img/shop.png" />
+  <title>La Sasha</title>
+  <!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- fontawsome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <img class="logo-header" src="logo.PNG">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">FACEBOOK</a></li>
+          <li><a href="#">INSTAGRAM</a></li>
+          <li><a href="#">SUBSCRIBE</a></li>
+        </ul>
+      </nav>
+      <div id="cart-icon"><i class='bx bxs-shopping-bags'></i></div>
+  </header>
+  <main>
+    <!-- card container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+          <h4 class="badge-pill badge-light mt-3 mb-3 p-2 text-center">
+            Products
+          </h4>
+          <div class="row">
+            <!--firstPRD-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="aldo.jpg" alt="prd1" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info bold product-name">
+                    ALDO
+                  </h5>
+                  <p class="card-text text-success product-price">8570 DT.</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--secondPRD-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="guess.jpg" alt="prd2" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">
+                    GUESS
+                  </h5>
+                  <p class="card-text text-success product-price">3400 DT.</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button2" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <!--thirdPRD-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="calvinklein.jpg" alt="prd3" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">CALVIN KLEIN</h5>
+                  <p class="card-text text-success product-price">5210 DT.</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--add product-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="dior.jpg" alt="prd4" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">DIOR</h5>
+                  <p class="card-text text-success product-price">9200 DT.</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+         
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="tommy.jpg" alt="prd5" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">TOMMY HILFIGER</h5>
+                  <p class="card-text text-success product-price">6800 DT.</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="michelcors.jpg" alt="prd6" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">MICHEL CORS</h5>
+                  <p class="card-text text-success product-price">3200 DT.</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+          <h4 class="badge-pill badge-light mt-3 mb-3 p-2 text-center">
+            Cart
+          </h4>
+          <div class="cart">
+            <h2>Your Cart</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="credit">
+  
+    <h2><span></span>welcom to our Store<span></span></h2>
+
+  </footer>
+  <!-- javascript link -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
